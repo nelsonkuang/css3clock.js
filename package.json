@@ -1,0 +1,24 @@
+{
+  "name": "css3clock",
+  "version": "0.1.0",
+  "description": "css3clock - a simple,css3 clock",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nelsonkuang/css3clock.js.git"
+  },
+  "keywords": [
+    "css3clock.js",
+    "css3clock",
+	"css3 clock"
+  ],
+  "author": "Nelson Kuang",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.0",
+	"grunt-contrib-cssmin": "~0.5.0"
+  }
+}
