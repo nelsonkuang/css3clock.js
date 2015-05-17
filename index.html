@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+    <title>css3clock</title>
+    <link href="/css/animations.min.css" type="text/css" rel="stylesheet"/>
+    <link href="/css/css3clock.min.css" type="text/css" rel="stylesheet" />
+    <style>
+        #clockTokyo, #clockBeijing, #clockNewYork, #clockMoscow, #clockLondon, #clockParis, #clockSydney, #clockVancouver, #aboutMe, #friendsLink {
+            width: 33.33%;
+            float: left;
+            padding: 20px 0;
+            border-radius: 30px;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+        }
+        #clockTokyo {
+            background-color:#8ccfff;
+        }
+        #clockBeijing {
+            background-color:#68ff7c;
+        }
+        #clockNewYork {
+            background-color:rgb(255, 202, 105);
+        }
+        #clockVancouver {
+            background-color: rgb(226, 193, 156);
+        }
+        #clockMoscow {
+            background-color:#fe9aef;
+        }
+        #clockLondon {
+            background-color:rgb(255, 124, 124);
+        }
+        #clockParis {
+            background-color:rgb(255, 255, 102);
+        }
+        #clockSydney {
+            background-color:#B483FF;
+        }
+        #aboutMe {
+            background-color:rgb(223, 223, 223);
+            padding:0;
+        }
+        #friendsLink {
+            background-color:rgb(239, 227, 198);
+        }
+        #aboutMe p,#friendsLink p{
+            padding:10px;
+        }
+            #friendsLink .cpt_viu_27507 {
+                width:12px;
+            }
+        @media screen and (max-width: 800px) {
+                /*add your css styles here*/
+                #clockTokyo, #clockBeijing, #clockNewYork, #clockVancouver, #clockMoscow, #clockLondon, #clockParis, #clockSydney, #aboutMe, #friendsLink {
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            /*add your css styles here*/
+            #clockTokyo, #clockBeijing, #clockNewYork, #clockVancouver, #clockMoscow, #clockLondon, #clockParis, #clockSydney, #aboutMe, #friendsLink {
+                width: 100%;
+            }
+        }
+    </style>
+
+
+</head>
+<body>
+    <div id="clockTokyo">
+        <div class="clock">
+            <div class="outerCircle"></div>
+            <div class="innerCircle"></div>
+            <div class="numbers">
+                <div class="num num1">1</div>
+                <div class="num num2">2</div>
+                <div class="num num3">3</div>
+                <div class="num num4">4</div>
+                <div class="num num5">5</div>
+                <div class="num num6">6</div>
+                <div class="num num7">7</div>
+                <div class="num num8">8</div>
+                <div class="num num9">9</div>
+                <div class="num num10">10</div>
+                <div class="num num11">11</div>
+                <div class="num num12">12</div>
+            </div>
+            <div class="hands">
+                <div class="hand hourHand"></div>
+                <div class="hand minuteHand"></div>
+                <div class="hand secondHand"></div>
+                <div class="hand circle"></div>
+            </div>
+        </div>
+        <div class="desc">
+            <strong>Tokyo</strong>:<span class="dateEN"></span><br />
+            <strong>东京</strong>:<span class="dateCN"></span>
+        </div>
+    </div>
+    <div id="clockBeijing">
+        <div class="clock">
+            <div class="outerCircle"></div>
+            <div class="innerCircle"></div>
+            <div class="numbers">
+                <div class="num num1">1</div>
+                <div class="num num2">2</div>
+                <div class="num num3">3</div>
+                <div class="num num4">4</div>
+                <div class="num num5">5</div>
+                <div class="num num6">6</div>
+                <div class="num num7">7</div>
+                <div class="num num8">8</div>
+                <div class="num num9">9</div>
+                <div class="num num10">10</div>
+                <div class="num num11">11</div>
+                <div class="num num12">12</div>
+            </div>
+            <div class="hands">
+                <div class="hand hourHand"></div>
+                <div class="hand minuteHand"></div>
+                <div class="hand secondHand"></div>
+                <div class="hand circle"></div>
+            </div>
+        </div>
+        <div class="desc">
+            <strong>Beijing</strong>:<span class="dateEN"></span>
+            <br />
+            <strong>北京</strong>:<span class="dateCN"></span>
+        </div>
+    </div>
+    <div id="clockMoscow">
+        <div class="clock">
+            <div class="outerCircle"></div>
+            <div class="innerCircle"></div>
+            <div class="numbers">
+                <div class="num num1">1</div>
+                <div class="num num2">2</div>
+                <div class="num num3">3</div>
+                <div class="num num4">4</div>
+                <div class="num num5">5</div>
+                <div class="num num6">6</div>
+                <div class="num num7">7</div>
+                <div class="num num8">8</div>
+                <div class="num num9">9</div>
+                <div class="num num10">10</div>
+                <div class="num num11">11</div>
+                <div class="num num12">12</div>
+            </div>
+            <div class="hands">
+                <div class="hand hourHand"></div>
+                <div class="hand minuteHand"></div>
+                <div class="hand secondHand"></div>
+                <div class="hand circle"></div>
+            </div>
+        </div>
+        <div class="desc">
+            <strong>Moscow</strong>:<span class="dateEN"></span>
+            <br />
+            <strong>莫斯科</strong>:<span class="dateCN"></span>
+        </div>
+    </div>
+    <div id="clockNewYork">
+        <div class="clock">
+            <div class="outerCircle"></div>
+            <div class="innerCircle"></div>
+            <div class="numbers">
+                <div class="num num1">1</div>
+                <div class="num num2">2</div>
+                <div class="num num3">3</div>
+                <div class="num num4">4</div>
+                <div class="num num5">5</div>
+                <div class="num num6">6</div>
+                <div class="num num7">7</div>
+                <div class="num num8">8</div>
+                <div class="num num9">9</div>
+                <div class="num num10">10</div>
+                <div class="num num11">11</div>
+                <div class="num num12">12</div>
+            </div>
+            <div class="hands">
+                <div class="hand hourHand"></div>
+                <div class="hand minuteHand"></div>
+                <div class="hand secondHand"></div>
+                <div class="hand circle"></div>
+            </div>
+        </div>
+        <div class="desc">
+            <strong>New York</strong>:<span class="dateEN"></span>
+            <br />
+            <strong>纽约</strong>:<span class="dateCN"></span>
+        </div>
+    </div>
+    <div id="clockVancouver">
+        <div class="clock">
+            <div class="outerCircle"></div>
+            <div class="innerCircle"></div>
+            <div class="numbers">
+                <div class="num num1">1</div>
+                <div class="num num2">2</div>
+                <div class="num num3">3</div>
+                <div class="num num4">4</div>
+                <div class="num num5">5</div>
+                <div class="num num6">6</div>
+                <div class="num num7">7</div>
+                <div class="num num8">8</div>
+                <div class="num num9">9</div>
+                <div class="num num10">10</div>
+                <div class="num num11">11</div>
+                <div class="num num12">12</div>
+            </div>
+            <div class="hands">
+                <div class="hand hourHand"></div>
+                <div class="hand minuteHand"></div>
+                <div class="hand secondHand"></div>
+                <div class="hand circle"></div>
+            </div>
+        </div>
+        <div class="desc">
+            <strong>Vancouver</strong>:<span class="dateEN"></span>
+            <br />
+            <strong>温哥华</strong>:<span class="dateCN"></span>
+        </div>
+    </div>
+    <div id="clockLondon">
+        <div class="clock">
+            <div class="outerCircle"></div>
+            <div class="innerCircle"></div>
+            <div class="numbers">
+                <div class="num num1">1</div>
+                <div class="num num2">2</div>
+                <div class="num num3">3</div>
+                <div class="num num4">4</div>
+                <div class="num num5">5</div>
+                <div class="num num6">6</div>
+                <div class="num num7">7</div>
+                <div class="num num8">8</div>
+                <div class="num num9">9</div>
+                <div class="num num10">10</div>
+                <div class="num num11">11</div>
+                <div class="num num12">12</div>
+            </div>
+            <div class="hands">
+                <div class="hand hourHand"></div>
+                <div class="hand minuteHand"></div>
+                <div class="hand secondHand"></div>
+                <div class="hand circle"></div>
+            </div>
+        </div>
+        <div class="desc">
+            <strong>London</strong>:<span class="dateEN"></span>
+            <br />
+            <strong>伦敦</strong>:<span class="dateCN"></span>
+        </div>
+    </div>
+    <div id="clockParis">
+        <div class="clock">
+            <div class="outerCircle"></div>
+            <div class="innerCircle"></div>
+            <div class="numbers">
+                <div class="num num1">1</div>
+                <div class="num num2">2</div>
+                <div class="num num3">3</div>
+                <div class="num num4">4</div>
+                <div class="num num5">5</div>
+                <div class="num num6">6</div>
+                <div class="num num7">7</div>
+                <div class="num num8">8</div>
+                <div class="num num9">9</div>
+                <div class="num num10">10</div>
+                <div class="num num11">11</div>
+                <div class="num num12">12</div>
+            </div>
+            <div class="hands">
+                <div class="hand hourHand"></div>
+                <div class="hand minuteHand"></div>
+                <div class="hand secondHand"></div>
+                <div class="hand circle"></div>
+            </div>
+        </div>
+        <div class="desc">
+            <strong>Paris</strong>:<span class="dateEN"></span>
+            <br />
+            <strong>巴黎</strong>:<span class="dateCN"></span>
+        </div>
+    </div>
+    <div id="clockSydney">
+        <div class="clock">
+            <div class="outerCircle"></div>
+            <div class="innerCircle"></div>
+            <div class="numbers">
+                <div class="num num1">1</div>
+                <div class="num num2">2</div>
+                <div class="num num3">3</div>
+                <div class="num num4">4</div>
+                <div class="num num5">5</div>
+                <div class="num num6">6</div>
+                <div class="num num7">7</div>
+                <div class="num num8">8</div>
+                <div class="num num9">9</div>
+                <div class="num num10">10</div>
+                <div class="num num11">11</div>
+                <div class="num num12">12</div>
+            </div>
+            <div class="hands">
+                <div class="hand hourHand"></div>
+                <div class="hand minuteHand"></div>
+                <div class="hand secondHand"></div>
+                <div class="hand circle"></div>
+            </div>
+        </div>
+        <div class="desc">
+            <strong>Sydney</strong>:<span class="dateEN"></span>
+            <br />
+            <strong>悉尼</strong>:<span class="dateCN"></span>
+        </div>
+    </div>
+    <script type="text/javascript" src="/js/css3clock.min.js"></script>
+    <script>
+        css3clock.ready(function () {
+            css3clock.init(document.getElementById("clockTokyo"), css3clock.worldDates.TokyoDate(), {
+                secondHandAnimateClass: "rotateSecondTokyo",
+                minuteHandAnimateClass: "rotateMinuteTokyo",
+                hourHandAnimateClass: "rotateHourTokyo"
+            });
+            css3clock.init(document.getElementById("clockBeijing"), css3clock.worldDates.BeiJingDate(), {
+                secondHandAnimateClass: "rotateSecondBeijing",
+                minuteHandAnimateClass: "rotateMinuteBeijing",
+                hourHandAnimateClass: "rotateHourBeijing"
+            });
+            css3clock.init(document.getElementById("clockNewYork"), css3clock.worldDates.NewYorkDate(), {
+                secondHandAnimateClass: "rotateSecondNewyork",
+                minuteHandAnimateClass: "rotateMinuteNewyork",
+                hourHandAnimateClass: "rotateHourNewyork"
+            });
+            css3clock.init(document.getElementById("clockMoscow"), css3clock.worldDates.MoscowDate(), {
+                secondHandAnimateClass: "rotateSecondMoscow",
+                minuteHandAnimateClass: "rotateMinuteMoscow",
+                hourHandAnimateClass: "rotateHourMoscow"
+            });
+            css3clock.init(document.getElementById("clockLondon"), css3clock.worldDates.LondonDate(), {
+                secondHandAnimateClass: "rotateSecondLondon",
+                minuteHandAnimateClass: "rotateMinuteLondon",
+                hourHandAnimateClass: "rotateHourLondon"
+            });
+            css3clock.init(document.getElementById("clockParis"), css3clock.worldDates.ParisDate(), {
+                secondHandAnimateClass: "rotateSecondParis",
+                minuteHandAnimateClass: "rotateMinuteParis",
+                hourHandAnimateClass: "rotateHourParis"
+            });
+            css3clock.init(document.getElementById("clockSydney"), css3clock.worldDates.SydneyDate(), {
+                secondHandAnimateClass: "rotateSecondSydney",
+                minuteHandAnimateClass: "rotateMinuteSydney",
+                hourHandAnimateClass: "rotateHourSydney"
+            });
+            css3clock.init(document.getElementById("clockVancouver"), css3clock.worldDates.VancouverDate(), {
+                secondHandAnimateClass: "rotateSecondVancouver",
+                minuteHandAnimateClass: "rotateMinuteVancouver",
+                hourHandAnimateClass: "rotateHourVancouver"
+            });
+        });
+    </script>
+</body>
+</html>
