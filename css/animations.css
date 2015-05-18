@@ -1,0 +1,1996 @@
+@charset "UTF-8";
+/*!
+    2015.05.08 Nelson Kuang
+*/
+/************* Clock Tokyo ****************/
+/*
+    @creator: Nelson Kuang
+    @name: rotateSecondTokyo - second hand of the clock
+    @usage: <div class="rotateSecondTokyo">Example</div>
+    */
+@-webkit-keyframes rotateSecondTokyo {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateSecondTokyo {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateSecondTokyo {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateSecondTokyo {
+    -moz-animation-name: rotateSecondTokyo;
+    -webkit-animation-name: rotateSecondTokyo;
+    animation-name: rotateSecondTokyo;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 60s;
+    -webkit-animation-duration: 60s;
+    animation-duration: 60s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+/*
+    @creator: Nelson Kuang
+    @name: rotateMinuteTokyo - minute hand of the clock
+    @usage: <div class="rotateMinuteTokyo">Example</div>
+    */
+@-webkit-keyframes rotateMinuteTokyo {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateMinuteTokyo {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateMinuteTokyo {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateMinuteTokyo {
+    -moz-animation-name: rotateMinuteTokyo;
+    -webkit-animation-name: rotateMinuteTokyo;
+    animation-name: rotateMinuteTokyo;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 3600s;
+    -webkit-animation-duration: 3600s;
+    animation-duration: 3600s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+/*
+    @creator: Nelson Kuang
+    @name: rotateHourTokyo - hour hand of the clock
+    @usage: <div class="rotateHourTokyo">Example</div>
+    */
+@-webkit-keyframes rotateHourTokyo {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateHourTokyo {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateHourTokyo {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateHourTokyo {
+    -moz-animation-name: rotateHourTokyo;
+    -webkit-animation-name: rotateHourTokyo;
+    animation-name: rotateHourTokyo;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 43200s;
+    -webkit-animation-duration: 43200s;
+    animation-duration: 43200s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+/************* Clock Beijing ****************/
+/*
+    @creator: Nelson Kuang
+    @name: rotateSecondBeijing - second hand of the clock
+    @usage: <div class="rotateSecondBeijing">Example</div>
+    */
+@-webkit-keyframes rotateSecondBeijing {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateSecondBeijing {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateSecondBeijing {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateSecondBeijing {
+    -moz-animation-name: rotateSecondBeijing;
+    -webkit-animation-name: rotateSecondBeijing;
+    animation-name: rotateSecondBeijing;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 60s;
+    -webkit-animation-duration: 60s;
+    animation-duration: 60s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+/*
+    @creator: Nelson Kuang
+    @name: rotateMinuteBeijing - minute hand of the clock
+    @usage: <div class="rotateMinuteBeijing">Example</div>
+    */
+@-webkit-keyframes rotateMinuteBeijing {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateMinuteBeijing {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateMinuteBeijing {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateMinuteBeijing {
+    -webkit-animation-name: rotateMinuteBeijing;
+    -moz-animation-name: rotateMinuteBeijing;
+    animation-name: rotateMinuteBeijing;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 3600s;
+    -webkit-animation-duration: 3600s;
+    animation-duration: 3600s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+/*
+    @creator: Nelson Kuang
+    @name: rotateHourBeijing - hour hand of the clock
+    @usage: <div class="rotateHourBeijing">Example</div>
+    */
+@-webkit-keyframes rotateHourBeijing {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateHourBeijing {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateHourBeijing {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateHourBeijing {
+    -webkit-animation-name: rotateHourBeijing;
+    -moz-animation-name: rotateHourBeijing;
+    animation-name: rotateHourBeijing;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 43200s;
+    -webkit-animation-duration: 43200s;
+    animation-duration: 43200s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+/************* Clock New York ****************/
+/*
+    @creator: Nelson Kuang
+    @name: rotateSecondNewyork - second hand of the clock
+    @usage: <div class="rotateSecondNewyork">Example</div>
+    */
+@-webkit-keyframes rotateSecondNewyork {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateSecondNewyork {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateSecondNewyork {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateSecondNewyork {
+    -webkit-animation-name: rotateSecondNewyork;
+    -moz-animation-name: rotateSecondNewyork;
+    animation-name: rotateSecondNewyork;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 60s;
+    -webkit-animation-duration: 60s;
+    animation-duration: 60s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+/*
+    @creator: Nelson Kuang
+    @name: rotateMinuteNewyork - minute hand of the clock
+    @usage: <div class="rotateMinuteNewyork">Example</div>
+    */
+@-webkit-keyframes rotateMinuteNewyork {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateMinuteNewyork {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateMinuteNewyork {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateMinuteNewyork {
+    -webkit-animation-name: rotateMinuteNewyork;
+    -moz-animation-name: rotateMinuteNewyork;
+    animation-name: rotateMinuteNewyork;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 3600s;
+    -webkit-animation-duration: 3600s;
+    animation-duration: 3600s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+/*
+    @creator: Nelson Kuang
+    @name: rotateHourNewyork - hour hand of the clock
+    @usage: <div class="rotateHourNewyork">Example</div>
+    */
+
+@-webkit-keyframes rotateHourNewyork {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateHourNewyork {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateHourNewyork {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateHourNewyork {
+    -webkit-animation-name: rotateHourNewyork;
+    -moz-animation-name: rotateHourNewyork;
+    animation-name: rotateHourNewyork;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 43200s;
+    -webkit-animation-duration: 43200s;
+    animation-duration: 43200s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+/************* Clock Moscow ****************/
+/*
+    @creator: Nelson Kuang
+    @name: rotateSecondMoscow - second hand of the clock
+    @usage: <div class="rotateSecondMoscow">Example</div>
+    */
+@-webkit-keyframes rotateSecondMoscow {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateSecondMoscow {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateSecondMoscow {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateSecondMoscow {
+    -webkit-animation-name: rotateSecondMoscow;
+    -moz-animation-name: rotateSecondMoscow;
+    animation-name: rotateSecondMoscow;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 60s;
+    -webkit-animation-duration: 60s;
+    animation-duration: 60s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+/*
+    @creator: Nelson Kuang
+    @name: rotateMinuteMoscow - minute hand of the clock
+    @usage: <div class="rotateMinuteMoscow">Example</div>
+    */
+@-webkit-keyframes rotateMinuteMoscow {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateMinuteMoscow {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateMinuteMoscow {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateMinuteMoscow {
+    -webkit-animation-name: rotateMinuteMoscow;
+    -moz-animation-name: rotateMinuteMoscow;
+    animation-name: rotateMinuteMoscow;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 3600s;
+    -webkit-animation-duration: 3600s;
+    animation-duration: 3600s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+/*
+    @creator: Nelson Kuang
+    @name: rotateHourMoscow - hour hand of the clock
+    @usage: <div class="rotateHourMoscow">Example</div>
+    */
+
+@-webkit-keyframes rotateHourMoscow {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateHourMoscow {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateHourMoscow {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateHourMoscow {
+    -webkit-animation-name: rotateHourMoscow;
+    -moz-animation-name: rotateHourMoscow;
+    animation-name: rotateHourMoscow;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 43200s;
+    -webkit-animation-duration: 43200s;
+    animation-duration: 43200s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+/************* Clock London ****************/
+/*
+    @creator: Nelson Kuang
+    @name: rotateSecondLondon - second hand of the clock
+    @usage: <div class="rotateSecondLondon">Example</div>
+    */
+@-webkit-keyframes rotateSecondLondon {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateSecondLondon {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateSecondLondon {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateSecondLondon {
+    -webkit-animation-name: rotateSecondLondon;
+    -moz-animation-name: rotateSecondLondon;
+    animation-name: rotateSecondLondon;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 60s;
+    -webkit-animation-duration: 60s;
+    animation-duration: 60s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+/*
+    @creator: Nelson Kuang
+    @name: rotateMinuteLondon - minute hand of the clock
+    @usage: <div class="rotateMinuteLondon">Example</div>
+    */
+@-webkit-keyframes rotateMinuteLondon {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateMinuteLondon {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateMinuteLondon {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateMinuteLondon {
+    -webkit-animation-name: rotateMinuteLondon;
+    -moz-animation-name: rotateMinuteLondon;
+    animation-name: rotateMinuteLondon;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 3600s;
+    -webkit-animation-duration: 3600s;
+    animation-duration: 3600s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+/*
+    @creator: Nelson Kuang
+    @name: rotateHourLondon - hour hand of the clock
+    @usage: <div class="rotateHourLondon">Example</div>
+    */
+
+@-webkit-keyframes rotateHourLondon {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateHourLondon {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateHourLondon {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateHourLondon {
+    -webkit-animation-name: rotateHourLondon;
+    -moz-animation-name: rotateHourLondon;
+    animation-name: rotateHourLondon;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 43200s;
+    -webkit-animation-duration: 43200s;
+    animation-duration: 43200s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+/************* Clock Paris ****************/
+/*
+    @creator: Nelson Kuang
+    @name: rotateSecondParis - second hand of the clock
+    @usage: <div class="rotateSecondParis">Example</div>
+    */
+@-webkit-keyframes rotateSecondParis {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateSecondParis {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateSecondParis {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateSecondParis {
+    -webkit-animation-name: rotateSecondParis;
+    -moz-animation-name: rotateSecondParis;
+    animation-name: rotateSecondParis;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 60s;
+    -webkit-animation-duration: 60s;
+    animation-duration: 60s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+/*
+    @creator: Nelson Kuang
+    @name: rotateMinuteParis - minute hand of the clock
+    @usage: <div class="rotateMinuteParis">Example</div>
+    */
+@-webkit-keyframes rotateMinuteParis {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateMinuteParis {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateMinuteParis {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateMinuteParis {
+    -webkit-animation-name: rotateMinuteParis;
+    -moz-animation-name: rotateMinuteParis;
+    animation-name: rotateMinuteParis;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 3600s;
+    -webkit-animation-duration: 3600s;
+    animation-duration: 3600s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+/*
+    @creator: Nelson Kuang
+    @name: rotateHourParis - hour hand of the clock
+    @usage: <div class="rotateHourParis">Example</div>
+    */
+
+@-webkit-keyframes rotateHourParis {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateHourParis {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateHourParis {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateHourParis {
+    -webkit-animation-name: rotateHourParis;
+    -moz-animation-name: rotateHourParis;
+    animation-name: rotateHourParis;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 43200s;
+    -webkit-animation-duration: 43200s;
+    animation-duration: 43200s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+/************* Clock Sydney ****************/
+/*
+    @creator: Nelson Kuang
+    @name: rotateSecondSydney - second hand of the clock
+    @usage: <div class="rotateSecondSydney">Example</div>
+    */
+@-webkit-keyframes rotateSecondSydney {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateSecondSydney {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateSecondSydney {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateSecondSydney {
+    -webkit-animation-name: rotateSecondSydney;
+    -moz-animation-name: rotateSecondSydney;
+    animation-name: rotateSecondSydney;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 60s;
+    -webkit-animation-duration: 60s;
+    animation-duration: 60s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+/*
+    @creator: Nelson Kuang
+    @name: rotateMinuteSydney - minute hand of the clock
+    @usage: <div class="rotateMinuteSydney">Example</div>
+    */
+@-webkit-keyframes rotateMinuteSydney {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateMinuteSydney {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateMinuteSydney {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateMinuteSydney {
+    -webkit-animation-name: rotateMinuteSydney;
+    -moz-animation-name: rotateMinuteSydney;
+    animation-name: rotateMinuteSydney;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 3600s;
+    -webkit-animation-duration: 3600s;
+    animation-duration: 3600s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+/*
+    @creator: Nelson Kuang
+    @name: rotateHourSydney - hour hand of the clock
+    @usage: <div class="rotateHourSydney">Example</div>
+    */
+
+@-webkit-keyframes rotateHourSydney {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateHourSydney {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateHourSydney {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateHourSydney {
+    -webkit-animation-name: rotateHourSydney;
+    -moz-animation-name: rotateHourSydney;
+    animation-name: rotateHourSydney;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 43200s;
+    -webkit-animation-duration: 43200s;
+    animation-duration: 43200s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+/************* Clock Vancouver ****************/
+/*
+    @creator: Nelson Kuang
+    @name: rotateSecondVancouver - second hand of the clock
+    @usage: <div class="rotateSecondVancouver">Example</div>
+    */
+@-webkit-keyframes rotateSecondVancouver {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateSecondVancouver {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateSecondVancouver {
+    from {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: 24.2% center;
+        -moz-transform-origin: 24.2% center;
+        transform-origin: 24.2% center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateSecondVancouver {
+    -webkit-animation-name: rotateSecondVancouver;
+    -moz-animation-name: rotateSecondVancouver;
+    animation-name: rotateSecondVancouver;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 60s;
+    -webkit-animation-duration: 60s;
+    animation-duration: 60s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+/*
+    @creator: Nelson Kuang
+    @name: rotateMinuteVancouver - minute hand of the clock
+    @usage: <div class="rotateMinuteVancouver">Example</div>
+    */
+@-webkit-keyframes rotateMinuteVancouver {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateMinuteVancouver {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateMinuteVancouver {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateMinuteVancouver {
+    -webkit-animation-name: rotateMinuteVancouver;
+    -moz-animation-name: rotateMinuteVancouver;
+    animation-name: rotateMinuteVancouver;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 3600s;
+    -webkit-animation-duration: 3600s;
+    animation-duration: 3600s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+/*
+    @creator: Nelson Kuang
+    @name: rotateHourVancouver - hour hand of the clock
+    @usage: <div class="rotateHourVancouver">Example</div>
+    */
+
+@-webkit-keyframes rotateHourVancouver {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateHourVancouver {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotateHourVancouver {
+    from {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotateHourVancouver {
+    -webkit-animation-name: rotateHourVancouver;
+    -moz-animation-name: rotateHourVancouver;
+    animation-name: rotateHourVancouver;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 43200s;
+    -webkit-animation-duration: 43200s;
+    animation-duration: 43200s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
