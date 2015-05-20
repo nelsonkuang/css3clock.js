@@ -19,7 +19,7 @@
     var previouscss3Clock = root.css3Clock;
 
     css3Clock = {};
-    css3Clock.VERSION = "0.0.1";
+    css3Clock.VERSION = "0.1.0";
     //the second hand, minute hand and hour hand of the clock
     var hands = function (date, animateCss) {
         var h = {},
