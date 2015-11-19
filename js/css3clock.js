@@ -221,7 +221,10 @@
     }
 
     function addClass(obj, cls) {
-        if (!hasClass(obj, cls)) obj.className += " " + cls;
+        if (!hasClass(obj, cls)) {
+            obj.className = obj.className.replace(/(^\s*)|(\s*$)/g, "");
+            obj.className += " " + cls;
+        }
     }
 
     function removeClass(obj, cls) {
