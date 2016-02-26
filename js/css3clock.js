@@ -12,7 +12,7 @@
         // Browser globals (root is window)
         root.css3Clock = factory(root.css3Clock);
     }
-}(this, function (css3Clock) {
+}(this, function () {
     // Baseline
     /* -------------------------------------------------------------------------- */
     var root = this || global;
