@@ -6,19 +6,19 @@
             // Also create a global in case some scripts
             // that are loaded still are looking for
             // a global even when an AMD loader is in use.
-            return (root.css3Clock = factory());
+            return (root.css3Clock = factory(css3Clock));
         });
     } else {
         // Browser globals (root is window)
-        root.css3Clock = factory();
+        root.css3Clock = factory(root.css3Clock);
     }
-}(this, function () {
+}(this, function (css3Clock) {
     // Baseline
     /* -------------------------------------------------------------------------- */
     var root = this || global;
     var previouscss3Clock = root.css3Clock;
 
-    var css3Clock = {};
+    css3Clock = {};
     css3Clock.VERSION = "0.1.0";
     //the second hand, minute hand and hour hand of the clock
     var hands = function (date, animateCss) {
